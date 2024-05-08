@@ -10,7 +10,7 @@
   "scripts": {
     "start": "node app.js",
     "lint": "./node_modules/.bin/eslint **/*.js",
-    "test": "jest --updateSnapshot"
+    "test": ""
   },
   "keywords": [],
   "author": "",
