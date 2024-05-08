@@ -2,10 +2,9 @@
   "name": "torque-dash",
   "version": "1.0.0",
   "description": ""
-  },
   "engines": {
-    "node": "14.x",
-    "npm": "10.x"
+    "npm": "10.x",
+    "node": "14.x"
   },
   "main": "app.js",
   "scripts": {
