@@ -10,7 +10,7 @@
   "scripts": {
     "start": "node app.js",
     "lint": "./node_modules/.bin/eslint **/*.js",
-    "test": ""
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
