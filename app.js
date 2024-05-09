@@ -50,10 +50,10 @@ sequelize.sync(
     .then(() => {
         console.log('Connection to database successfully established');  
         
-         User.create({
-         email: 'rockhopper238@Yahoo.com',
-             password : 'Raidramon239*'
-         });
+         //User.create({
+         //email: 'rockhopper238@Yahoo.com',
+             //password : ''
+         //});
 
         // Start server
         app.listen(config.port, () => console.log(`Listening on port ${config.port}`));
