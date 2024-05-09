@@ -45,7 +45,7 @@ app.use('*', require('./routes/404.js'));
 
 // Connect to database and sync models
 sequelize.sync(
-     {force:true}
+    // {force:true}
     )
     .then(() => {
         console.log('Connection to database successfully established');  
